@@ -7,14 +7,14 @@ local hrp = game.Players.LocalPlayer.Character.HumanoidRootPart
 -- Tweens -- 
 local ts = game:GetService("TweenService")
 
-local info1 = TweenInfo.new(2,Enum.EasingStyle.Sine)
+local info1 = TweenInfo.new(2,Enum.EasingStyle.Linear)
 local infoes = TweenInfo.new(5,Enum.EasingStyle.Linear)
 local tween_table1 = {
     CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-28)
 }
 
 local tween_table2 = {
-    CFrame = CFrame.new(-2110.37256, 47.3102226, -581.517822, -0.708614111, 2.28928094e-08, 0.705596209, 1.65267711e-08, 1, -1.58471725e-08, -0.705596209, 4.31696706e-10, -0.708614111)  * CFrame.new(0,9,0)
+    CFrame = CFrame.new(-2110.37256, 47.3102226, -581.517822, -0.708614111, 2.28928094e-08, 0.705596209, 1.65267711e-08, 1, -1.58471725e-08, -0.705596209, 4.31696706e-10, -0.708614111)  * CFrame.new(0,5,0)
 }
 
 local tween_table3 = {
@@ -22,11 +22,11 @@ local tween_table3 = {
 }
 
 local tween_table4 = {
-    CFrame = CFrame.new(-2164.71997, 47.310257, -453.263733, -0.999739707, 8.20497732e-08, 0.0228141136, 8.27319511e-08, 1, 2.8957718e-08, -0.0228141136, 3.08376364e-08, -0.999739707) * CFrame.new(0,5,0)
+    CFrame = CFrame.new(-2164.71997, 47.310257, -453.263733, -0.999739707, 8.20497732e-08, 0.0228141136, 8.27319511e-08, 1, 2.8957718e-08, -0.0228141136, 3.08376364e-08, -0.999739707) * CFrame.new(0,8,0)
 }
 
 local tween_table5 = {
-    CFrame = CFrame.new(-2199.67358, 47.3101349, -410.789368, -0.818902373, 4.88006187e-08, 0.573932827, 8.87291449e-08, 1, 4.15726191e-08, -0.573932827, 8.49684838e-08, -0.818902373) * CFrame.new(0,5,0)
+    CFrame = CFrame.new(-2199.67358, 47.3101349, -410.789368, -0.818902373, 4.88006187e-08, 0.573932827, 8.87291449e-08, 1, 4.15726191e-08, -0.573932827, 8.49684838e-08, -0.818902373) * CFrame.new(0,8,0)
 }
 
 local tween_table6 = {
@@ -113,7 +113,7 @@ local t17 = ts:Create(hrp,info1,tween_table17)
 local t177 = ts:Create(hrp,info1,tween_table177)
 local t18 = ts:Create(hrp,info1,tween_table18)
 
-wait(5.7)
+
 t1:play()
 wait(5)
 t2:play()
